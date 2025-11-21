@@ -1,49 +1,57 @@
 public class Vehicule {
-    private String couleur;
-    private String marque;
-    private String modele;
-    private int annee;
-    private String immatriculation;
+    protected String couleur;
+    protected String marque;
+    protected String modele;
+    protected int annee;
+    protected String immatriculation;
 
-    public Vehicule(String couleur, String marque,String modele,int annee, String immatriculation)  {
+    public Vehicule(String couleur, String marque, String modele, int annee, String immatriculation) {
         this.couleur = couleur;
         this.marque = marque;
         this.modele = modele;
         this.annee = annee;
         this.immatriculation = immatriculation;
-
     }
+
     public Vehicule(){}
 
-    public void setcouleur(String c) {
-        this.couleur = c;
-    }
-    public void setmarque(String m) {
-        this.marque = m;
-    }
-    public void setmodele(String m) {
-        this.modele = m;
-    }
-    public void setannee(int a) {
-        this.annee = a;
-    }
-    public void setimmatriculation(String im) {
-        this.immatriculation = im;
-    }
-    public String getcouleur() {
+    public String getCouleur() {
         return couleur;
     }
-    public String getmarque() {
+
+    public void setCouleur(String couleur) {
+        this.couleur = couleur;
+    }
+
+    public String getMarque() {
         return marque;
     }
-    public String getmodele() {
+
+    public void setMarque(String marque) {
+        this.marque = marque;
+    }
+
+    public String getModele() {
         return modele;
     }
-    public int getannee() {
+
+    public void setModele(String modele) {
+        this.modele = modele;
+    }
+
+    public int getAnnee() {
         return annee;
     }
-    public String getimmatriculation() {
+
+    public void setAnnee(int annee) {
+        this.annee = annee;
+    }
+
+    public String getImmatriculation() {
         return immatriculation;
     }
 
+    public void setImmatriculation(String immatriculation) {
+        this.immatriculation = immatriculation;
+    }
 }
