@@ -1,7 +1,8 @@
 // entity/Velo.java
 package entity;
 
-public class Velo extends Vehicule {
+public  class Velo extends Vehicule {
+    private static long serialVersionUID = 1L;
     private final String type;
 
     public Velo(String id, String couleur, String marque, String modele, int annee, String type) {

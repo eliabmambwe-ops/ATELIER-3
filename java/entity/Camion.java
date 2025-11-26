@@ -2,6 +2,7 @@
 package entity;
 
 public class Camion extends Vehicule implements Motorise {
+    private static long serialVersionUID = 1L;
     private final double capaciteCharge;
 
     public Camion(String id, String couleur, String marque, String modele, int annee,

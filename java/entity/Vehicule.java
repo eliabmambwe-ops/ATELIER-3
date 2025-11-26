@@ -19,6 +19,27 @@ public abstract class Vehicule implements Roulant, Identifiable {
         this.immatriculation = immatriculation;
     }
 
+    public void setCouleur(String couleur) {
+
+        this.couleur = couleur;
+    }
+
+    public void setImmatriculation(String immatriculation) {
+        this.immatriculation = immatriculation;
+    }
+
+    public void setAnnee(int annee) {
+        this.annee = annee;
+    }
+
+    public void setModele(String modele) {
+        this.modele = modele;
+    }
+
+    public void setMarque(String marque) {
+        this.marque = marque;
+    }
+
     @Override public String getId() { return id; }
 
     @Override public void rouler() { System.out.println(modele + " roule."); }

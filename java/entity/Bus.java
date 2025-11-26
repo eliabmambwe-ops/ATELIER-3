@@ -2,6 +2,7 @@
 package entity;
 
 public class Bus extends Vehicule implements Motorise, TransportPassagers {
+    private static long serialVersionUID = 1L;
     private final int vitesseMax;
     private final String etatCarrosserie;
     private final String carburant;

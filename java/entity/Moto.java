@@ -1,7 +1,8 @@
 // entity/Moto.java
 package entity;
 
-public class Moto extends Vehicule implements Motorise {
+public  class Moto extends Vehicule implements Motorise {
+    private static long serialVersionUID = 1L;
     private final int cylindree;
     private final String type;
     private final float poids;
